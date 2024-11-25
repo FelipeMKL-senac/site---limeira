@@ -81,7 +81,9 @@ nav img {
     border-bottom: 2px solid var(--cinza_claro);
     border-collapse: separate;
     width: 100%;
-
+h1{
+    width: 100%;
+}
     h2 {
         border-bottom: 2px solid var(--cinza_claro);
     }
@@ -92,11 +94,13 @@ nav img {
         padding: 8px;
         text-align: start;
         font-size: larger;
+        padding: 4px;
     }
 
     td {
         background-color: var(--laranja);
         font-size: large;
+        padding: 4px;
     }
 
 }
@@ -181,11 +185,13 @@ nav img {
         padding: 8px;
         text-align: start;
         font-size: larger;
+        padding: 4px;
     }
 
     td {
         background-color: var(--laranja);
         font-size: large;
+        padding: 4px;
     }
 
 }
@@ -368,4 +374,9 @@ ol {
     height: 45vh;
     border-bottom: var(--laranja) solid 3px;
 }
+}
+
+.titulo{
+   width: 100%;
+   margin-left: auto;
 }
