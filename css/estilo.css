@@ -313,6 +313,49 @@ ol {
 .populacao_principal{
     width: 100%;
   h2{
-    margin-bottom: 0px;
+    border-top: var(--jade) solid 4px;
+    margin-bottom: 0%;
   }
+  p{
+    margin-top: 20px;
+    border-bottom: var(--laranja) solid 4px;
+   
+    
+  }
+  i{
+    font-size: 30px;
+  }
+
+}
+
+.lista_pref{
+    margin-bottom: 60px;
+    p{
+        border-bottom: #e07c46 solid 4px;
+        padding: 10px;
+        margin-left: 20%;
+        justify-content: center;
+        width: 60%;
+        display: flex;
+        background-color: #F7A072;
+        font-size: large;
+    }
+}
+
+.locais_map{
+    iframe{
+        width: 100%;
+        height: 45vh;
+    }
+}
+.info_esportes{
+   
+    width: 100%;
+    h2{
+        margin-top: 20px;
+    }
+    iframe{
+    width: 100%;
+    height: 45vh;
+}
 }
